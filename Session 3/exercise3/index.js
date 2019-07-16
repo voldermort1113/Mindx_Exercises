@@ -2,8 +2,8 @@ let items = ["T-Shirt","Sweater","Jeans"];
 for(;;){
     let cmd = prompt("Welcome to our shop, what do you want? (C,R,U,D)\n(Other words to exit)").toLowerCase();
     let ourItems = "Our items: ";
-    if(cmd ===`c`){
-    }else if(cmd ===`r`){
+    if(cmd ===`r`){
+    }else if(cmd ===`c`){
         let newItem = prompt("Enter new item: ");
         items.push(newItem);
     }else if(cmd ===`u`){
