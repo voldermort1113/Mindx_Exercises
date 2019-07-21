@@ -7,4 +7,5 @@ const is_inside = ([x,y],[recX,recY,recWidth,recHeight])=>{
         return false;
     }
 }
-console.log("Is inside: "+ is_inside([100, 120], [80, 60,30,70]) );
+console.log( is_inside([100, 120], [140, 60, 	]) );
+console.log( is_inside([200, 120], [140,60,100,200]) );
