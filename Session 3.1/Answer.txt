@@ -1,0 +1,4 @@
+-	“Nested list” là danh sách lồng nhau, danh sách trong danh sách
+-	Không thể lưu trữ 2 kiểu dữ liệu khác nhau trong 1 mảng.
+ kiểu dữ liệu của các phần tử sẽ được đặt theo kiểu dữ liệu của phần tử đầu tiên trong mảng.
+
