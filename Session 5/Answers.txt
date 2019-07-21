@@ -1,0 +1,30 @@
+	1. Why should we use functions at all?
+- Nên dùng function vì nó có thể dùng lại được nhiều lần trong nhiều chương trình khác nhau, giúp tiết kiệm thời gian, công việc
+- Khi viết 1 chương trình mới, mình có thể sử dụng lại function cũ hoặc các hàm người khác đã viết
+- Khi sử dụng chỉ cần biết input output mà k cần nhất thiết phải hiểu code bên trong function
+	
+	2. How to define/declare a function?
+- 1 hàm được khai báo gồm 2 phần chính bắt buộc phải có gồm danh sách các tham số trong một cặp dấu ngoặc đơn
+và phần body code nằm trong cặp dấu ngoặc nhọn:
+- Ví dụ :
+	- function functionName(para1,para2,...paraN){function's code}
+	- const functionName = () => {};
+	3. How to call/use a function?
+- funtionName(para1,para2,..paraN);
+
+	4. What is return, why and how do we use it?
+- Câu lệnh return dừng thực thi hàm và trả về giá trị từ hàm đó.
+- Ví dụ: 
+	const hello = (name) => {
+		return("hello "+name);
+	}
+ 
+	5. Do we have to use return in every function?
+- Ta không cần phải dùng return ở mọi function, hàm thiếu câu lệnh return sẽ tự động trả về void.
+
+	6. What are function arguments/parameters, why and how we use it?
+- Function parameters  là các tên được liệt kê trong định nghĩa chức năng của hàm.
+- Function arguments là các giá trị thực được truyền cho và nhận bởi hàm.
+
+	7. How to use function from a different file other than our currently working file?
+- Ta đặt toàn bộ phần code trong window.onload = () => { bodycode } 
